@@ -141,7 +141,7 @@ ul{
 
 .parallax {
   /* The image used */
-  background-image: url("Imagens/CodeFrame.jpg");
+  background-image: url("../Imagens/CodeFrame.jpg");
 
   /* Set a specific height */
   height: 400px;
