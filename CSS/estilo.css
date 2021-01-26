@@ -1,0 +1,154 @@
+.bg-green{
+  background-color: #1abc9c;
+  color: #ffffff;
+}
+
+.bg-grey{
+  background-color: #474e5d;
+  color:#ffffff;
+}
+
+.bg-white{
+  background-color: #ffffff;
+  color: #555555
+}
+
+.bg-orange {
+  background-color: #ffa500;
+  color:#ffffff;
+}
+
+.bg-black {
+  background-color: #2f2f2f;
+  color:#ffffff;
+}
+
+.container-fluid{
+  padding-top: 60px;
+
+  padding-bottom: 60px;
+  margin-left: 300px;
+}
+
+
+.container{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 60px
+  margin-left: 300px;
+}
+
+
+body {
+font: 20px "Montserrat", sans-serif;
+/*line-height: 2.0;*/
+color: #f5f6f7;
+}
+
+p {
+  font-size: 18px;
+  border: 2px;
+  line-height: 40px;
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: justify;
+
+}
+
+h2{
+  padding-bottom: 30px; 
+}
+
+.margin {
+  margin-left: 160px;
+  margin-bottom: 45px;
+  padding:0px 10px;
+}
+
+/* The sidebar menu */
+.sidenav {
+  height: 100%;  /*Full-height: remove this if you want "auto" height */
+  width: 300px;  /*Set the width of the sidebar*/ 
+  position: fixed;  Fixed Sidebar (stay in place on scroll) 
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #1abc9c; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #000000;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+/*@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+*//* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+li{
+  /*margin-left: 150px;*/
+  text-decoration: none;
+  margin-top: 2px;
+  font-size: 18px;
+  padding-left: 230px;
+  text-orientation: left;
+  text-decoration-style: none;
+  line-height: 40px;
+}
+
+ul{
+  list-style-position: inside;
+  text-align:left;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("Imagens/CodeFrame.jpg");
+
+  /* Set a specific height */
+  height: 400px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
